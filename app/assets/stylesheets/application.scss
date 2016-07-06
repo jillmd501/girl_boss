@@ -14,5 +14,23 @@
  *= require_tree .
  */
 @import "materialize/components/color";
-$primary-color: color("blue", "lighten-2") !default;
+$primary-color: color("orange", "darken-1") !default;
 @import 'materialize';
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 3.5em;
+	color: gray;
+	font-weight: 900;
+}
+
+body {
+    background-color: white;
+}
+
+
+.nav-wrapper {
+  color: transparent;
+  opacity: 0.6;
+  font-family: 'Playfair Display', cursive;
+}
