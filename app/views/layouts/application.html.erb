@@ -7,19 +7,27 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900italic,700italic,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
   <body>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="http://www.hibridblog.com/wp-content/uploads/2016/03/girl-boss-1.jpg" class="brand-logo center">Logo</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
+	<div class="navbar-fixed">
+		<nav>
+		  <div class="nav-wrapper">
+		    <a href="/" class="brand-logo center"> Girl Boss Designs</a>
+		    <ul class="right hide-on-med-and-down">
+		      <li class="active"><a href="/contact">Let's Chat</a></li>
+		    </ul class="left hide-on-med-and-down">
+		    <ul>
+		      <li><a href="/about">About Me</a></li>
+		      <li><a href="/">Inspiration</a></li>
+		      <li><a href="/skills">Skills</a></li>
+		      <li><a href="/">Portfolio</a></li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+
     <%= yield %>
   </body>
 </html>

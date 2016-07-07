@@ -14,7 +14,7 @@
  *= require_tree .
  */
 @import "materialize/components/color";
-$primary-color: color("orange", "darken-1") !default;
+$primary-color: color("teal", "lighten-3") !default;
 @import 'materialize';
 
 h1 {
@@ -29,8 +29,7 @@ body {
 }
 
 
-.nav-wrapper {
+.navbar-fixed {
   color: transparent;
   opacity: 0.6;
-  font-family: 'Playfair Display', cursive;
 }
