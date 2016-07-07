@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get "/contact", to: "welcome#contact"
   get "/inspiration", to: "welcome#inspiration"
   get "/portfolio", to: "welcome#portfolio"
+  get "/faq", to: "welcome#faq"
 end

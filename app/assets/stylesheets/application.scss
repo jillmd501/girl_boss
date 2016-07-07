@@ -33,9 +33,15 @@ body {
   opacity: 0.6;
 }
 
-blockquote {
+#mainquote {
   font-size: 2.7rem;
   font-family: 'Playfair Display', serif;
+}
+
+#faqquote {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: gray;
 }
 
 #company {
